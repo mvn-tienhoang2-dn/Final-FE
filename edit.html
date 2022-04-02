@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5198254db.js" crossorigin="anonymous"></script>
+    <title>List Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startTime()">
+    <header class="header-nav">
+        <div class="container">
+            <nav class="flex-nav">
+                <img onclick="redirect()" class="logo" src="https://www.vortez.net/articles_file/45686_msi_new_logo.png" alt="logo">
+                <h3 class="time-mid" id="time"></h3>
+                <ul class="function">
+                    <li class="function-item"><a href="/list-product.html"> List all products</a></li>
+                    <li class="function-item"><a href="/create-product.html"> Create new product</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="edit-section">
+            <div class="container">
+                <h1>Update Form</h1>
+              <form id="form-update" class="form" action="">
+              </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer-flex">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-regular fa-circle fa-stack-2x"></i>
+                        <i class="fa-solid fa-location-dot fa-stack-1x "></i>
+                    </span>
+                    <div class="address">
+                        <h3>Address:</h3>
+                        <p>166 Nguyen Cong Tru</p>
+                    </div>
+                </div>
+                <div class="col-6 footer-flex">
+                    <span class="fa-stack fa-3x">
+                        <i class="fa-regular fa-circle fa-stack-2x"></i>
+                        <i class="fa-solid fa-phone fa-stack-1x"></i>
+                    </span>
+                    <div class="phone">
+                        <h3>Phone:</h3>
+                        <p>092305691</p>
+                    </div>
+                </div>
+             </div>
+             <hr class="custom-hr-1">
+             <div class="socials">
+                 <a href="https://facebook.com/hoangviettien2011"><i class="fa-brands fa-facebook-square fa-2x facebook"></i></a>
+                 <a class="instagram" href="https://https://www.instagram.com/1102_neit/"><i class="fab fa-instagram"></i></a>
+                 <a  href="https://github.com/mvn-tienhoang2-dn"><i class="fab fa-github fa-2x"></i></a>
+             </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/time.js"></script>
+<!-- <script src="products.js"></script> -->
+<script src="js/update.js"></script>
+</html>
